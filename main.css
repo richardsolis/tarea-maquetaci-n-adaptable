@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #cdd4dc;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.box-text{
+    margin: auto;
+    text-align: center;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.box-text h1{
+    color: #85969c;
+    font-size: 49px;
+    font-family: 'Lobster', cursive;
+}
+.box-text p{
+    font-family: 'Raleway', sans-serif;
+    color: #85969c;
+    font-size: 24px;
+}
+.btn{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color:white;
+    background: #48bae6;
+    border: 1px solid #0fa6db;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: 700;
+    transition:1s;
+    cursor: pointer;
+    width: 150px;
+    outline: none;
+}
+.btn:hover{
+    background: white;
+    transition:1s;
+    color: #0fa6db;
+}
+.fa-smile-o{
+    font-size: 70px;
+    color: #bbd2da;
+}
+@media (max-width: 460px){
+    .box-text{
+        height:380px;
+        transition: 0.5s;
+    }
+}
