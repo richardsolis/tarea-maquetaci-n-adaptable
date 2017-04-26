@@ -1,0 +1,17 @@
+{
+  "name": "tarea-maquetaci-n-adaptable",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
