@@ -3,7 +3,16 @@
   padding: 0;
   margin: 0;
 }
-
+body{
+  display: flex;
+  flex-direction: column;
+}
+main{
+  width: 80%;
+}
+aside{
+  width: 20%;
+}
 header,
 nav,
 aside,
@@ -16,7 +25,9 @@ footer{
   font-family: 'Pacifico', cursive;
   font-size: 23px;
 }
-
+.wraper{
+  display: flex;
+}
 
 header{
   background: darkblue;
@@ -34,4 +45,15 @@ main{
 }
 footer{
   background: aqua;
+}
+@media (max-width:320px) {
+  .wraper{
+    flex-direction: column;
+  }
+  main{
+    width: 100%;
+  }
+  aside{
+    width: 100%;
+  }
 }
